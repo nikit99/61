@@ -1,0 +1,170 @@
+body{
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #40514E;/*for text color */
+    text-align: center;
+   background-color: white;
+}
+h1
+{
+    font-family: cursive;
+    font-size: 3.5rem;
+    margin: 50px auto 32px auto ;
+    
+    color: #66BFBF;
+}
+h2
+{
+    text-align: center;
+    font-weight: normal;
+    font-family: cursive;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3
+{
+    color: #11999E;
+    font-family: cursive;
+    
+}
+.third
+{
+    position: absolute;
+    /*relative to our div box push image*/
+    top: 30px;
+    right : 400px ;
+}
+
+p
+{
+    line-height: 2;
+ 
+}
+hr
+{
+    border: dotted red  6px;/*#EAF6F6*/
+    border-bottom: none;
+    width: 5pc;
+    margin: 100px auto 100px auto;
+}
+a{
+    color: #11999e;
+    font-family: cursive;
+    margin: 10px 20px;        /*right left*/
+    text-decoration: none;   /*remove underline*/
+    padding: 20px 0 20px 0;
+}
+a:hover   /*pseudo classes  ,color change while hovering over it*/
+{
+  color: #E4F9F5;
+}
+
+/************************************************************************/
+
+
+.copyright
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+.thirdimg
+{
+    position:absolute;
+    left : 250px;
+    bottom: 300px;
+}
+.top
+{
+    background-color: whitesmoke;
+    padding-top: 100px;
+    position:relative;
+}
+.middleimage
+{
+
+    height: 150px;
+    width: 150px;
+}
+.skillimage
+{
+    float: left;
+    margin-right: 30px;
+    height: 150px;
+    width: 150px;
+}
+.skillcricket
+{
+    float: right;
+    margin-right: 30px;
+    height: 150px;
+    width: 150px;
+}
+
+.skills
+{
+ 
+  text-align: left;
+}
+.skill-row
+{
+    padding-bottom: 50px;
+}
+.Cricket
+{
+    padding-bottom: 0px;
+}
+.profile
+{
+    padding-bottom: 0px;
+}
+.middle-container
+{
+    margin: 100px auto 100px auto;    /* taki allign center rahe*/
+    width: 50pc;
+}
+.bottom-container
+{
+       /* taki allign center rahe*/
+       background-color: #66BFBF;
+       padding: 50px 0 20px;
+    
+}
+.para
+{
+    width: 30pc;
+    margin: auto;
+}
+.contact-me
+{
+    width: 40pc;
+    margin: 40px auto 40px auto;
+}
+/* button auto geneerated code from web buttongenerator */
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;/*bs ye upr body ke jese rakhna*/
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
